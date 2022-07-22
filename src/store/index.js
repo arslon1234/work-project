@@ -1,14 +1,23 @@
-import { createStore } from 'vuex'
-
+import { createStore } from "vuex";
+import axios from "axios";
 export default createStore({
-  state: {
+  state() {
+    return {
+      employees: [],
+    };
   },
-  getters: {
-  },
+  getters: {},
   mutations: {
+    getEmployees(state, data) {
+      state.employees = data;
+    },
   },
   actions: {
+    getEmployees({commit}){
+      axios.get("./server/data.json").then(res=>{
+        commit("getEmployees", res.data.items)
+      })
+    }
   },
-  modules: {
-  }
-})
+  modules: {},
+});

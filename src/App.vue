@@ -1,30 +1,34 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="w-full">
+    <router-view/>
+  </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+*{
+  font-family: "Roboto";
+  font-style: normal;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
-nav {
-  padding: 30px;
-}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1C609E;
+  border-radius: 6px;
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
 }
-
-nav a.router-link-exact-active {
-  color: #42b983;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 </style>

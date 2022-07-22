@@ -1,0 +1,149 @@
+{
+  "items": [
+    {
+      "id": 4,
+      "full_name": "Jamila Otahonova",
+      "department": "IT",
+      "position": "Mobile Developer",
+      "gender": "female",
+      "birth_date": "15-02-2000",
+      "single_employee": {
+        "__v_isShallow": false,
+        "dep": {
+          "w": 0,
+          "n": 0
+        },
+        "__v_isRef": true,
+        "_rawValue": {
+          "id": 4,
+          "full_name": "Jamila Otahonovass",
+          "department": "Marketing",
+          "position": "Mobile Developerss",
+          "gender": "female",
+          "birth_date": "2022-07-05T19:00:00.000Z"
+        },
+        "_value": {
+          "id": 4,
+          "full_name": "Jamila Otahonovass",
+          "department": "Marketing",
+          "position": "Mobile Developerss",
+          "gender": "female",
+          "birth_date": "2022-07-05T19:00:00.000Z"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "full_name": "Jonibek Ergashov",
+      "department": "Accounting",
+      "position": "Project accountant",
+      "gender": "male",
+      "birth_date": "02-05-1996"
+    },
+    {
+      "id": 8,
+      "full_name": "Nodirbek Abduvahobov",
+      "department": "IT",
+      "position": "Frontend Developer",
+      "gender": "male",
+      "birth_date": "25-08-2003"
+    },
+    {
+      "id": 9,
+      "full_name": "Asadbek Ismoilov",
+      "department": "Marketing",
+      "position": "Marketing specialist",
+      "gender": "male",
+      "birth_date": "25-08-2003"
+    },
+    {
+      "id": 10,
+      "full_name": "Azamat Eshmatov",
+      "department": "Accounting",
+      "position": "Accounting supervisor",
+      "gender": "male",
+      "birth_date": "13-08-2002"
+    },
+    {
+      "id": 11,
+      "full_name": "Abdulloh Soipov",
+      "department": "IT",
+      "position": "IOS Developer",
+      "gender": "male",
+      "birth_date": "16-09-2001"
+    },
+    {
+      "id": 12,
+      "full_name": "Nulufar Eshboyeva",
+      "department": "IT",
+      "position": "Python Developer",
+      "gender": "female",
+      "birth_date": "21-09-2002"
+    },
+    {
+      "id": 13,
+      "full_name": "Saida Sharipova",
+      "department": "Marketing",
+      "position": "Marketing manager",
+      "gender": "female",
+      "birth_date": "28-10-1999"
+    },
+    {
+      "id": 14,
+      "full_name": "Behzod Saidov",
+      "surname": "Saidov",
+      "department": "Accounting",
+      "position": "Staff accountant",
+      "gender": "male",
+      "birth_date": "05-10-1999"
+    },
+    {
+      "id": 15,
+      "full_name": "Davron Baratov",
+      "department": "IT",
+      "position": "Java developer",
+      "gender": "male",
+      "birth_date": "17-01-1997"
+    },
+    {
+      "full_name": "dasda",
+      "department": "Accounting",
+      "birth_date": "14-07-2022",
+      "position": "fdsfs",
+      "gender": "female",
+      "id": 16
+    },
+    {
+      "full_name": "Abdurahmon Nematov",
+      "department": "Accounting",
+      "birth_date": "07-07-2022",
+      "position": "buhgalter",
+      "gender": "male",
+      "id": 17
+    },
+    {
+      "full_name": "Abdurahmon Aliqulov",
+      "department": "IT",
+      "birth_date": "07-07-2022",
+      "position": "Backend Developer",
+      "gender": "male",
+      "id": 18
+    },
+    {
+      "full_name": "palonchi pistonchiyev",
+      "department": "IT",
+      "birth_date": "21-07-2022",
+      "position": "sakd",
+      "gender": "male",
+      "id": 19
+    },
+    {
+      "full_name": "dsad",
+      "department": "Accounting",
+      "birth_date": "08-07-2022",
+      "position": "sda",
+      "gender": "female",
+      "id": 20
+    }
+  ]
+}
